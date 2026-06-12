@@ -1,0 +1,147 @@
+fieldset {
+    padding: 2em;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+fieldset input, fieldset select, fieldset textarea {
+    width: 50%;
+}
+
+#enviar {
+    width: 120px;
+    padding: 12px 20px;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    background-color: #e60012;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#enviar:hover {
+    background-color: #ff1a2f;
+}
+
+input , textarea, select{
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #222;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 51.8% !important;
+}
+
+label {
+    margin-left: 20px;
+}
+
+
+#mensagemLabel {
+    display: inline-block; 
+    text-align: start;
+    margin: 0;
+    line-height: normal;
+    width: 10%;
+    margin-left: 20px;
+    position: relative;
+    top: -2em;
+}
+
+textarea {
+    height: 5vh;
+}
+
+.ultimo-input {
+    width: 100%; 
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+}
+
+.confirmacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.confirmacao h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.confirmacao p {
+    width: 100%;
+}
+
+#botaoConfirmar {
+    width: 120px;
+    padding: 12px 20px;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    background-color: #e60012;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#botaoConfirmar:hover {
+    background-color: #ff1a2f;
+}
+
+@media (max-width: 768px) {
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    fieldset input,
+    fieldset select,
+    fieldset textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    fieldset label {
+        width: 100%;
+        margin: 0 0 10px 0;
+        text-align: left;
+    }
+
+    select {
+        width: 100% !important;
+    }
+
+    #mensagemLabel {
+        width: 100%;
+        position: static;
+        margin: 0 0 10px 0;
+    }
+
+    textarea {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ultimo-input {
+        justify-content: center;
+    }
+
+    #enviar {
+        width: 100%;
+        max-width: none;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newstendo - Entre em contato com nós</title>
+    <link rel="stylesheet" href="../estilos/layout.css">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <link rel="shortcut icon" href="../midias/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="../midias/logo-instituicao.png" alt="Logo Instituição">
+        </figure>
+        <figcaption>
+            Central de Notícias
+        </figcaption>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre nós</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>CONTATE-NOS:</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <input type="text" name="nome" id="nome" required>
+                    <label for="nome">Nome*</label>
+
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email*</label>
+
+                    <input type="tel" name="telefone" id="telefone">
+                    <label for="telefone">Telefone</label>
+
+                    <input type="text" name="endereco" id="endereco">
+                    <label for="endereco">Endereço</label>
+
+                    <input type="date" name="dataNasc" id="dataNasc">
+                    <label for="dataNasc">Data de Nascimento</label>
+
+                    <select name="ondeConheceu" id="ondeConheceu">
+                        <option value="Amigos">Amigos</option>
+                        <option value="Trabalho">Trabalho</option>
+                        <option value="Redes Sociais">Redes Sociais</option>
+                        <option value="Propaganda">Propaganda</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                    <label for="ondeConheceu">Onde nos conheceu?</label>
+
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <label for="mensagem" id="mensagemLabel">Mensagem</label>
+
+                    <input type="checkbox" name="novidades" id="novidades">
+                    <label for="novidades">Deseja receber novidades?</label>
+
+                    <section class="ultimo-input">
+                        <input type="submit" value="Enviar" id="enviar">
+                    </section>
+                </fieldset>
+            </form>
+        </section>
+        <section class="confirmacao">
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Todos os direitos reservador para Dev Erik 2026 &copy;</p>
+        </section>
+        <section>
+            <a href="https://www.instagram.com/erikon.macc/">Instagram</a>
+            <a href="https://br.linkedin.com/in/erik-machado-lopes">Linkedin</a>
+        </section>
+    </footer>
+    <script src="../javascript/script.js" defer></script>
+</body>
+</html>
