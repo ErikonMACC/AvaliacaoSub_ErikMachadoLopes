@@ -1,4 +1,5 @@
 fieldset {
+    width: 60%;
     padding: 2em;
     border-radius: 15px;
     background-color: antiquewhite;
@@ -38,6 +39,22 @@ select {
 
 label {
     margin-left: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main section, main .confirmacao {
+    width: 100%;
 }
 
 
